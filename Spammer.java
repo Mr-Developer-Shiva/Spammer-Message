@@ -22,11 +22,11 @@ public class Spammer{
        clipboard.setContents(stringSelection, null);
 
        System.out.println("Wait for 3 seconds " );
-       Thread.sleep(500);
+       Thread.sleep(3000);
         scanner.close();
 
         while(i < size){
-            Thread.sleep(2000);
+            Thread.sleep(500);
             robot.keyPress(KeyEvent.VK_CONTROL);
             robot.keyPress(KeyEvent.VK_V);
             robot.keyRelease(KeyEvent.VK_CONTROL);
